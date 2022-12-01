@@ -1,4 +1,4 @@
-.container {
+/* .container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,4 +20,5 @@
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 0.05em;
-}
+  margin: 0 0.02em;
+} */
