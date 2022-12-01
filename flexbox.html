@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Digital Clock</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .big_clock_container {
+        width: 100px;
+        height: 100px;
+        background-color: rgba(19, 158, 112, 0.726);
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.3em;
+      }
+
+      .clock {
+        min-height: 50%;
+      }
+
+      .first_container {
+        background: rgba(19, 167, 117, 0.61);
+        border-bottom: 0.5px solid rgba(128, 128, 128, 0.295);
+        border-top-right-radius: 0.3em;
+        border-top-left-radius: 0.3em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="big_clock_container">
+        <div class="first_container clock"></div>
+
+        <div class="second_container clock"></div>
+      </div>
+    </div>
+  </body>
+</html>

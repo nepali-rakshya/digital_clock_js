@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Digital Clock</title>
+    <style>
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      .clock {
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(
+          to bottom,
+          rgba(19, 158, 112, 0.726) 0%,
+          rgba(19, 158, 112, 0.726) 50%,
+          rgba(19, 167, 117, 0.61) 50%,
+          rgba(19, 167, 117, 0.61) 100%
+        );
+        font-size: 4.5rem;
+        text-align: center;
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="clock">1</div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
