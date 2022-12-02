@@ -50,4 +50,4 @@ setInterval(function () {
   let randomValue = Math.floor(Math.random() * imagesArr.length);
   stylingBg =
     bgValue.style.background = `url(./img/${imagesArr[randomValue]}) center/cover no-repeat`;
-}, 15000);
+}, 10000);
